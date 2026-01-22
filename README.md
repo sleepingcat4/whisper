@@ -3,7 +3,7 @@ Whisper fine-tuning always been a black-magic since we don't have enough proper 
 I have trained Whisper Medium on Hebrew dataset. I have trained it on 80,000 training files and 10,000 validation files. [I also provide the dataset alongside this fine-tune training code]
 
 #### How to train?
-1. Download the dataset from HF and store in working dir. 
+1. Download the dataset from HF and store in working dir. [https://huggingface.co/datasets/sleeping-ai/hebrew-whisper]
 
 2. Clone this repo in working repo and have the files in working repo. and hit train.py with
 ```bash
