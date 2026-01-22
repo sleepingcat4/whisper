@@ -1,6 +1,5 @@
 from preprocess import preprocess_dataset
-from transformers import WhisperFeatureExtractor, WhisperTokenizer
-from datasets import DatasetDict
+from imports import *
 
 model_id = "openai/whisper-medium"
 feature_extractor = WhisperFeatureExtractor.from_pretrained(model_id)
