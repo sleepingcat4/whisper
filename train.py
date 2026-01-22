@@ -1,11 +1,6 @@
 from imports import *
 from collator import DataCollatorSpeechSeq2SeqWithPadding
 from metrics import compute_metrics
-from tqdm import tqdm
-import warnings
-from datasets import load_from_disk
-import logging
-from transformers import logging as hf_logging
 
 warnings.filterwarnings("ignore")
 hf_logging.set_verbosity_error()
