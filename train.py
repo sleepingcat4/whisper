@@ -8,7 +8,7 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 
 
 model_id = 'openai/whisper-medium'
-out_dir = 'whisper_large2_hebrew'
+out_dir = 'whisper_medium_hebrew'
 epochs = 10
 batch_size = 16
 
